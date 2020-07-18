@@ -15,6 +15,7 @@ This application was tested only on **Android simulator** and **Samsung M30S** h
 # Application Features
 ## Home
 The home page / screen contains 2 tabs. All the decks are displayed in the **Dashboard** tab. Users are allowed to create n number of decks using the second tab **Add Deck**. 
+![screenshot #1](Screenshots/MFC-Home.jpg)
 
 ## Add Deck
 Select the secodn tab in the Home screen. Enter the name of the deck and tap "Create Deck" button to create a new Deck. This will create the deck and displays the **Deck Details** screen.
