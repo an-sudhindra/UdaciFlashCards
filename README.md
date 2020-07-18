@@ -15,16 +15,24 @@ This application was tested only on **Android simulator** and **Samsung M30S** h
 # Application Features
 ## Home
 The home page / screen contains 2 tabs. All the decks are displayed in the **Dashboard** tab. Users are allowed to create n number of decks using the second tab **Add Deck**. 
-![screenshot #1](Screenshots/MFC-Home.jpg)
+
+<img src="Screenshots/MFC-Home.jpg" width="150">
 
 ## Add Deck
 Select the secodn tab in the Home screen. Enter the name of the deck and tap "Create Deck" button to create a new Deck. This will create the deck and displays the **Deck Details** screen.
 
+<img src="Screenshots/MFC-AddDeck.jpg" width="150">
+
 ## Deck Details
 This screen displays the Deck in details. It lists the all the cards / questions if any in the deck. Users can add new cards to the deck or take quiz or delete the deck from this screen.
 
+<img src="Screenshots/MFC-DeckDetails1.jpg" width="150">
+<img src="Screenshots/MFC-DeckDetails2.jpg" width="150">
+
 ## Add Card
 This screen allows users to create the new card. The screen displays free from text fields one for question and another for answer. Enter the question and answer, tap on the "Submit" button to add the details to the deck.
+
+<img src="Screenshots/MFC-AddCard.jpg" width="150">
 
 ## Delete Deck
 Users can use this option to delete the decks. 
@@ -32,4 +40,10 @@ Users can use this option to delete the decks.
 ## Quiz
 Users can take the Quiz from the **Deck Details** page. The screen lists questions one by one and user has to guess the answer to the question. Tapping "Show Answer" button will display the correct answer. Users has to select whether the answer they guessed is "Correct" or  "Incorrect" and tap the respective buttons on the screen. Once all questions are answered, Quiz results page gets displayed. This screen dispays the user score and options to go "Home" to to "Retake Quiz". Number of questions are displayed as the quiz progresses.
 
+<img src="Screenshots/MFC-Quiz.jpg" width="150">
+<img src="Screenshots/MFC-Quiz2.jpg" width="150">
+<img src="Screenshots/MFC-QuizScore.jpg" width="150">
+
 **Users are notified on daily basis to take at least one quiz a day**
+
+<img src="Screenshots/MFC-Notification.jpg" width="150">
