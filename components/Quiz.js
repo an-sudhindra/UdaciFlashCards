@@ -64,7 +64,8 @@ class Quiz extends React.Component {
     };
 
     handleHome = () => {
-        this.props.navigation.navigate("Home");
+        const { deckId } = this.props
+        this.props.navigation.navigate("DeckDetails", { deckId });
     };
 
     componentDidMount() {
@@ -117,7 +118,7 @@ class Quiz extends React.Component {
                                 style={[styles.btn, styles.normalBtn]}
                                 onPress={() => this.handleHome()}
                             >
-                                <Text style={styles.btnText}>Home</Text>
+                                <Text style={styles.btnText}>Back to Deck</Text>
                             </TouchableOpacity>
                         </View>
                     </View>
